@@ -1,0 +1,16 @@
+.elemento{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   max-width: 300px;
+   background-color: #ffffff;
+   padding-left: 30px;
+   cursor: pointer;
+}
+.elemento-img{
+   max-width: 60px;
+}
+.mr-l-3{
+display: flex;
+   align-items: center;
+   font-size: 13px;
+}

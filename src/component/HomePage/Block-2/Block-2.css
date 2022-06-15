@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+
+.banner{
+
+}
+.box-left{
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 50px;
+}
+.brand-name{
+    font-size: 30px;
+    font-weight: 900;
+}
+.button{
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    text-align: center;
+    max-width: 150px;
+    cursor: pointer;
+    padding: 10px;
+}
+             /*  BOX_2*/
+
+.box-2{
+    margin-top: 80px;
+}
+.box-top{
+    background-image: url('../../../img/Block-2/333.png');
+    background-repeat:no-repeat;
+    background-position:center;
+
+    max-width: 1520px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+}
+
+.container-block{
+    padding-top: 190px;
+    line-height: 50px;
+    padding-bottom: 100px;
+}
+
+.brand-name-2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.color-2{
+    color: white;
+}
+@media (max-width: 1200px) {
+    .container-block{
+        padding: 0;
+    }
+}
+@media (max-width: 800px) {
+    .box-top{
+        background-image: url(https://the-satori.net/wp-content/uploads/2019/02/%D1%81%D0%BD%D0%B8%D0%BA%D0%B5%D1%80%D1%85%D0%B5%D0%B41.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+        max-width: 1520px;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}

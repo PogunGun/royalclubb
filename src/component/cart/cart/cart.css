@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+.cart{
+    max-width: 1200px;
+    margin: auto;
+
+    background-color: white;
+}
+.user{
+    width: 25px;
+    margin-bottom: -3px;
+    margin-right:7px ;
+
+}
+.block-cart{
+    text-align: center;
+
+}
+.card-name-1{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.mt-p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.button-card{
+    padding: 12px 20px;
+    border:1px solid;
+    max-width: 300px;
+    margin: auto;
+    font-size: 17px;
+
+}
+.button-card:hover{
+    border:2px solid;
+   font-weight: 600;
+    padding-top: 10px;
+    transition: all 0.3s;
+
+}
+.dec{
+    text-decoration:none;
+    color: black;
+}
+.but-mar{
+    margin-top: 20px;
+}
+.grid-card-blcok{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 50px ;
+    grid-gap: 100px;
+}
+.mt-pp{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.mt-ppp{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.regg-button{
+
+    background-color: black;
+    color: #f0f0f0;
+    padding: 12px 150px;
+    text-decoration: none;
+
+}
+.i{
+    background-color: orange;
+    margin-left: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -20px;
+    margin-right: 2px;
+
+}
+.bg-clor{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color:#f2f3f4;
+    padding-bottom: 60px;
+
+}
+.mt-mt{
+
+}
+.cart-12{
+    background-color: white;
+    padding: 30px;
+}
+.corse-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+    grid-gap: 30px;
+
+}
+.brand-name-3{
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+
+.border-b-1{
+    margin-top: 10px;
+    border-bottom: 1px solid #f2f3f4;
+    margin-bottom: 10px;
+}
+.grid-mini{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mb-3{
+    margin-bottom: 10px;
+}
+.mt-1{
+    margin-top: 30px;
+ }
+.max-w{
+    height: 350px   ;
+}
+.display-g{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+}
+.b-2{
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 15px;
+    color:floralwhite;
+    background-color: black;
+
+}
+@media (max-width: 800px) {
+    .grid-card-blcok{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .margin-auto{
+        max-width: 1300px;
+        margin: auto;
+        text-align: center;
+    }
+    .cart>h1{
+        display: none;
+    }
+    .block-cart{
+        margin-top: 50px;
+    }
+    .corse-grid{
+        display: grid;
+        grid-template-columns: 2fr ;
+        max-width: 1200px;
+        margin: auto;
+        grid-gap: 30px;
+
+    }
+    .regg-button{
+
+        background-color: black;
+        color: #f0f0f0;
+        padding: 10px 0px;
+        text-decoration: none;
+        text-align: center;
+
+    }
+}
+@media (max-width: 700px) {
+    .display-g{
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+    }
+}
+@media (max-width: 500px) {
+    .brand-name-3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .display-g{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}

@@ -1,0 +1,135 @@
+{
+  "pizzas": [
+    {
+      "id": 0,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/07/nike-blazer-mid-white-court-blue-1-630x630.jpg",
+      "name": "NIKE SB Blazer",
+      "sizes": [38 ,39, 40],
+      "price": 2000,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/01/nike-sb-dunk-high-pro-mineral-slate-630x630.jpg",
+      "name": "NIKE SB Jordan",
+      "sizes": [41,42,43],
+      "price": 1245,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSihBpsJ34uuX15JuxppvJyUVcCMiVu6XpwQnnwLBFsq-kMAvEoxmyC22PwKeoCWQK_yHQ&usqp=CAU",
+      "name": "NIKE Blazer low",
+      "sizes": [38 ,39, 40],
+      "price": 1295,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/09/nike-sb-blazer-low-pro-gt-iso-white-1-630x630.jpg",
+      "name": "NIKE SB ishod PRM",
+      "sizes": [41,42,43],
+      "price": 2275,
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2022/01/adidas-forum-adv-low-footwear-white-1-630x630.jpg",
+      "name": "ADIDAS",
+      "sizes": [38 ,39],
+      "price": 915,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/08/nike-dunk-low-pro-catalonia.jpg",
+      "name": "NIKE Aankoop SB dunk",
+      "sizes":  [42,43],
+      "price": 1580,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2022/04/adidas-campus-adv-whit-1-1-630x630.jpg",
+      "name": "ADIDAS Campus ADV",
+      "sizes": [38 , 40],
+      "price": 1675,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://wigmoresports.co.uk/wp-content/uploads/2020/04/Barricade-Jnr-White-Grey-630x630.jpg",
+      "name": "ADIDAS Junior Barricade",
+      "sizes": [41,43],
+      "price": 1450,
+      "rating": 10
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://thumbor.forbes.com/thumbor/630x630/https://specials-images.forbesimg.com/imageserve/5d3a12a0f1176b000897a98f/Puma-RS-X/960x0.jpg?fit=scale",
+      "name": "PUMA Statement B",
+      "sizes": [38, 40],
+      "price": 1395,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://i.pinimg.com/originals/79/fb/2d/79fb2da075d023efe5c2472ca76cccc7.jpg",
+      "name": "Converse Chuk Tailor",
+      "sizes": [42,43],
+      "price": 1285,
+      "rating": 7
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://www.be-in.ru/media/beingallery/gallary/things/2017/11/01/630x630-thumb-bx917704-002-01.jpg",
+      "name": "NIKE AIR max 92",
+      "sizes": [38 ,39],
+      "price": 1395,
+      "rating": 10
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://media.kohlsimg.com/is/image/kohls/3923240_White?wid=600&hei=600&op_sharpen=1",
+      "name": "NIKE Court Vers",
+      "sizes": [41,42],
+      "price": 1395,
+      "rating": 10
+    },   {
+      "id": 12,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2022/03/nike-sb-blazer-mid-black-university-gold-1-630x630.jpg",
+      "name": "NIKE SB BLAZER COURT",
+      "sizes": [38 ,39, 40],
+      "price": 1395,
+      "rating": 10
+    },   {
+      "id": 13,
+      "imageUrl": "https://twentyfive.com.ua/files/resized/products/gz7278_adidas_ozweego_celox_adidas_krossovki_1.600x800.jpg",
+        "name": "ADIDAS OZWEEGO",
+      "sizes": [41,42],
+      "price": 1395,
+      "rating": 10
+    },   {
+      "id": 14,
+      "imageUrl": "https://wigmoresports.co.uk/wp-content/uploads/2019/06/AA8022-500-PHSRH000-2000-630x630.jpeg",
+      "name": "NIKE Womens Air Zoom",
+      "sizes": [38 , 40],
+      "price": 1395,
+      "rating": 10
+    },   {
+      "id": 15,
+      "imageUrl": "https://ekorobka.com.ua/image/catalog/ekorobka/krossovki_muz/Adidas-2017/adidas-2018-april/terrex/adidas-ZX_750-NEO_WHITE_SUB_GREEN_WHITE-11.jpg",
+      "name": "ADIDAS ZX 750",
+      "sizes": [41,43],
+      "price": 1395,
+      "rating": 10
+    },   {
+      "id": 16,
+      "imageUrl": "https://oneteam.com.ua/files/product-photos/cz0361-100.jpeg",
+      "name": "NIKE AirMax Infinity 2",
+      "sizes": [39, 40],
+      "price": 1395,
+      "rating": 10
+    }
+  ]
+}

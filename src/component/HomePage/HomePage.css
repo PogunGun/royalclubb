@@ -1,0 +1,15 @@
+.sticky{
+    position: sticky;
+    top: -1px;
+}
+@media(max-width: 1200px) {
+    .none{
+        display: none;
+    }
+
+}
+@media (max-width: 950px) {
+    .none-head{
+        display: none;
+    }
+}

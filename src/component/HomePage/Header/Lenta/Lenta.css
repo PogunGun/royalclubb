@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+.slide-wrapper{
+        margin-top: 30px;
+             display: grid;
+        grid-template-columns: repeat(10,1fr);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+         }
+.slide img{
+        max-width: 100px;
+        cursor: pointer;
+        min-width: 50px;
+    }
+.slide{
+        margin: auto;
+    }
+.prev{
+    cursor: pointer;
+    margin: auto;
+}
+.next{
+    margin: auto;
+    cursor: pointer;
+
+}
+.arrow-right {
+    transform: rotate(45deg);
+
+}
+.arrow-left {
+
+
+}
+.arrow {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    margin-right: 60px;
+
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid black;
+}
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid black;
+}
+.bg-clor-b{
+    background-repeat:no-repeat ;
+    background-image:url(https://www.flaneurz.com/media/mgs_blog/f/l/flaneurz-blog-histoire-sneakers-1_1__5.jpg);
+    background-position:center;
+}
+.fiol-block{
+    padding-top: 200px;
+    margin-left: 200px;
+    width: 230px;
+}
+.fiol-block-in{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 50px;
+    color: #f3f3f3;
+    background-color: #483d8b;
+    padding: 30px;
+
+}
+.fiol-button{
+    text-align: center;
+    width: 170px;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fiol-button:hover{
+    color: white;
+    background-color: black;
+     transition-delay: 0.2s;
+    transition: all 0.5s;
+}
+@media (max-width: 768px) {
+    .fiol-block{
+        padding-top:50px;
+        margin-left: 50px;
+        width: 230px;
+    }
+}

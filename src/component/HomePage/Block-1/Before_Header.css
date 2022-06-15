@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+.font-late{
+
+}
+
+/* BOOXXX*/
+.box{
+    padding-top:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1520px;
+    margin: auto;
+
+}
+
+.banner{
+    max-width: 700px;
+}
+.box-left{
+    line-height: 50px;
+}
+.brand-name{
+    font-size: 30px;
+    font-weight: 900;
+}
+.button-1{
+    color: white;
+        font-size: 18px;
+    background-color: black;
+    text-align: center;
+    max-width: 150px;
+     cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+/* BOOXX2*/
+.box2 img{
+   width: 1519px;
+
+}
+.box2{
+    margin-top: 80px;
+}
+.box-background{
+    background-image: url('../../../img/Before_Header/Homepage_1920x660_men.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    padding-top: 100px;
+    max-width: 1520px;
+    margin: auto;
+}
+
+.boxx{
+    margin: auto;
+}
+.pov{
+    position: relative;
+    color: #f0f0f0;
+    line-height: 50px;
+    margin: auto;
+}
+
+.button-2{
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    max-width: 150px;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* CARD CARD CARD CARD CARD*/
+.card-block-margin{
+    margin-top: -150px;
+
+
+}
+.card-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    max-width: 1520px;
+    margin: auto;
+
+}
+* {
+    box-sizing: border-box;
+}
+.product-item {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+}
+.product-item:hover {
+    border-bottom: 2px solid #fc5a5a;
+}
+.product-item img {
+    display: block;
+    width: 100%;
+}
+.product-list {
+    background: #fafafa;
+    padding: 15px 0;
+}
+.product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+}
+.price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+}
+.product-item:hover .button {
+    background: #fc5a5a;
+}
+.for-background{
+    max-width: 1520px;
+    margin: auto;
+}
+.fon_background_after{
+    margin-top: -5px;
+    background-color:#add8e6;
+    padding-bottom: 200px;
+}
+.back-2{
+    background-color:#faebd7;
+}
+.card-card{
+  max-width: 300px;
+}
+@media (max-width: 1200px) {
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+    }
+    .box-left{
+        padding-bottom: 20px;
+    }
+    .container-block{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .box-background{
+        height: 400px;
+
+    }
+    .fon_background_after{
+        margin-top: -5px;
+        padding-bottom: 100px;
+    }
+    .card-block-margin{
+        margin-top: -130px;
+
+    }
+}
+@media (max-width: 1000px) {
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+    }
+    .box-left{
+        padding-bottom: 20px;
+    }
+    .container-block{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .box-background{
+        height: 400px;
+
+    }
+
+    .banner{
+        width: 800px;
+    }
+    .card-block{
+
+        overflow-x:auto ;
+
+    }
+
+    .card-block::-webkit-scrollbar{
+        width: 0px;
+     }
+    .fon_background_after{
+        padding-bottom: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .banner{
+        width: 400px;
+    }
+}
+@media (max-width: 400px) {
+    .banner{
+        width: 300px;
+    }
+}
+@media (max-width: 800px) {
+    .box-background{
+        background-image: url(https://kyzylorda-news.kz/wp-content/uploads/2022/04/obwv.jpg);
+
+    }
+}

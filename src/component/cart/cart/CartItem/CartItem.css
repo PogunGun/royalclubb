@@ -1,0 +1,73 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+.grid-card-block-1{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 20px;
+
+
+}
+.triple-line{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.double-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.count{
+    text-align: center;
+}
+.bot-b{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+}
+.name-5{
+    font-size: 18px;
+
+}
+.image{
+    max-width: 150px;
+     max-height: 200px;
+}
+.b-grid-b{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.regullar{
+    width: 20px;
+    cursor: pointer;
+}
+.irreg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (max-width:800px) {
+    .image{
+        max-width: 100px;
+    }
+    .regullar{
+        width: 15px;
+    }
+}
+@media (max-width:350px) {
+    .image{
+        width: 80px;
+    }
+    .regullar{
+        width: 15px;
+    }
+    .double-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

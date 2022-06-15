@@ -1,0 +1,53 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+
+.box4-background{
+    background-image: url('../../../img/Block-4/ss22_outdoor_a.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    max-width: 1520px;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.box4{
+    margin-top: 100px;
+}
+.box4-background-2{
+    background-image: url('../../../img/Block-4/block4-car.png');
+    background-repeat:no-repeat;
+    background-position:center;
+
+
+}
+.block-4-2{
+    margin-top: 100px;
+}
+.container-block4{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+    line-height: 50px;
+    padding-bottom: 60px;
+}
+@media (max-width: 1200px) {
+    .block-4-2{
+     display: none;
+    }
+
+}
+@media (max-width: 800px) {
+    .box4-background{
+        background-image: url(https://lv1.pigugroup.eu/testimonials/0a00a275e5275cac31e26d0d338249ff.jpg);
+
+    }
+}

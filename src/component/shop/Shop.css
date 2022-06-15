@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+
+}
+
+.block-change{
+    padding-top: 10px;
+    background-color: white;
+    z-index: -2;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.max-mar{
+    max-width: 1150px;
+    margin: auto;
+
+}.bold-b{
+    font-weight: 700;
+    font-size: 14px ;
+    
+
+ }
+.grid-change{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0px;
+
+
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #6E18C0;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-top: 7px;
+}
+.block-grid-chang{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: border-bottom-color 1s;
+    margin-right: 50px;
+}
+
+.visibilite{
+    visibility:hidden;
+}
+.popup-3-b{
+    padding: 10px;
+
+    cursor: pointer;
+
+}
+.popup-3-b:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    transition: all 0.3s;
+    border-bottom: 2px solid;
+}
+.block-grid-chang:active {
+    border-bottom-color: #6E18C0;
+    transition:border-bottom-color 0s;
+}
+
+.change-text{
+    font-size: 14px;
+
+}
+
+.pd{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.active{
+
+}
+.block-cart-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1250px;
+    margin: auto;
+    grid-gap: 10px;
+}
+.popup-3{
+    text-align: center;
+    width: 100%;
+    max-width: 238px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding-right: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+@media (max-width: 1200px) {
+.block-cart-1{
+    overflow-x:auto ;
+}
+
+}
+@media (max-width: 800px) {
+.popup-3{
+    max-width: 158px;
+
+}
+}

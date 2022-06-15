@@ -1,0 +1,44 @@
+{
+  "pizzas": [
+    {
+      "id": 0,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/07/nike-blazer-mid-white-court-blue-1-630x630.jpg",
+      "name": "NIKE SB Blazer",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 2000,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/01/nike-sb-dunk-high-pro-mineral-slate-630x630.jpg",
+      "name": "NIKE SB Jordan",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 1245,
+      "category": 1,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSihBpsJ34uuX15JuxppvJyUVcCMiVu6XpwQnnwLBFsq-kMAvEoxmyC22PwKeoCWQK_yHQ&usqp=CAU",
+      "name": "NIKE Blazer low",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 1295,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/09/nike-sb-blazer-low-pro-gt-iso-white-1-630x630.jpg",
+      "name": "NIKE SB ishod PRM",
+      "types": [1],
+      "sizes": [26, 30, 40],
+      "price": 1275,
+      "category": 2,
+      "rating": 2
+    }
+  ]
+}

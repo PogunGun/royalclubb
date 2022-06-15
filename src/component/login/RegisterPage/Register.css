@@ -1,0 +1,81 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+.grid-reg{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+    grid-gap:130px;
+}
+.sign-block-margin{
+    max-width: 300px;
+}
+.register-block{
+
+    max-width: 300px;
+    margin: auto;
+
+
+}
+.register-block >input{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+.reg-button{
+    background-color: black;
+    color: #f0f0f0;
+    padding: 12px 0;
+    width: 300px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.name-2{
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.mini-text>div{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.mb-1{
+    margin-bottom: 44px;
+}
+.google-img{
+    max-width: 20px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+.google-grid{
+    display: flex;
+    justify-content: center;
+}
+.mar-top{
+    margin-top: 10px;
+}
+@media (max-width: 1200px) {
+    .grid-reg{
+
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin: auto;
+
+    }
+    .sign-block-margin{
+        margin: auto;
+    }
+}
