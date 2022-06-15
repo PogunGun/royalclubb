@@ -42,13 +42,13 @@ const Footer = () =>{
                                 <div className='footer-name'>ДОСТАВКА</div>
                                 <div className='footer-element'>У відділення Нова Пошта</div>
                                 <div className='footer-element'>
-                                    <NavLink to='/'>  <img src={nova} alt=""/></NavLink>
+                                    <NavLink to='/royalclubb'>  <img src={nova} alt=""/></NavLink>
                                 </div>
                             </div>
                             <div className="footer-block-grid-card border-line">
                                 <div className='footer-name'>ОПЛАТА</div>
                                 <div className='footer-element'>Банківською карткою</div>
-                                <NavLink to='/'>  <div className='footer-element'>
+                                <NavLink to='/royalclubb'>  <div className='footer-element'>
                                     <img src={visa} alt="" className='mini-margin'/>
                                     <img src={master} alt="" className='mini-margin'/>
                                     <img src={payU} alt="" className='mini-margin'/>
@@ -56,7 +56,7 @@ const Footer = () =>{
                             </div>
                             <div className="footer-block-grid-card border-line">
                                 <div className='footer-name'>МОБІЛЬНИЙ ДОДАТОК</div>
-                                <NavLink to='/'> <div className='footer-element '>
+                                <NavLink to='/royalclubb'> <div className='footer-element '>
                                     <img src={google} alt="" className='mini'/>
                                 </div>
                                 <div className='footer-element '>
@@ -69,7 +69,7 @@ const Footer = () =>{
                                 <div>
                                     <div>СТЕЖТЕ ЗА НАМИ:</div>
                                     <div className='footer-element'>
-                                        <NavLink to='/'>
+                                        <NavLink to='/royalclubb'>
                                         <img src={facebook} alt="" className='min-element'/>
                                         <img src={insta} alt="" className='min-element'/>
                                         <img src={youtube} alt="" className='min-element'/>

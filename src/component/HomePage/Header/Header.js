@@ -64,9 +64,9 @@ const Header =()=>{
             <div className='header-position'>
             <div className='header'>
                 <div className='header-logo'>
-                 <NavLink to='/'><img src={logo} alt=""/>
+                 <NavLink to='/royalclubb'><img src={logo} alt=""/>
                  </NavLink>
-                    <NavLink to='/'><span>Royal Club</span>
+                    <NavLink to='/royalclubb'><span>Royal Club</span>
                     </NavLink>
                 </div>
                 <div>
