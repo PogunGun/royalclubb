@@ -34,6 +34,7 @@ const  Block3 =()=>{
     const addElemCart=(obj)=>{
         dispatch(addElemtoCart(obj))
     }
+
 return(
     <div className="block3">
         <div className="container">
