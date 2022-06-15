@@ -18,7 +18,7 @@ const Before_Header =()=>{
 
     });
     React.useEffect(()=>{
-        axios.get(`/block-1.json`)
+        axios.get(`https://pogungun.github.io/royalclubb/block-1.json`)
             .then(({data})=>{
                 dispatch(addElement2(data.pizzas));
 
