@@ -21,7 +21,7 @@ const Profile=()=>{
 
     const  exitUser=()=>{
       dispatch(removeUser());
-        navigate('/')
+        navigate('/royalclubb')
     }
 
     return(

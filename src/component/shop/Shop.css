@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .max-mar{
     max-width: 1150px;
-    margin: auto;
+    margin:auto ;
 
 }.bold-b{
     font-weight: 700;
@@ -125,4 +125,36 @@ a{
     max-width: 158px;
 
 }
+    
+}
+@media (max-width: 900px) {
+    .max-mar{
+        max-width: 750px;
+        margin:auto ;
+
+    }
+    .grid-change{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 0px;
+
+
+    }
+}
+@media (max-width: 450px) {
+    .max-mar{
+        max-width: 750px;
+        margin:auto ;
+
+    }
+    .grid-change{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 0px;
+
+
+    }
+    .border-bottom{
+        margin-bottom: 10px;
+    }
 }
