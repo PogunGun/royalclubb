@@ -51,7 +51,7 @@ const Corse =()=>{
                         <h className='card-name-1'>Ваша корзина - пуста</h>
                         <p className='mt-p'>Посмотрите наше актуальное предложение. Вы уж точно найдёте там что-то интересное!</p>
                         <div className='but-mar'>
-                           <NavLink to='/' className='dec'> <div className='button-card'>На главную</div></NavLink>
+                           <NavLink to='/royalclubb' className='dec'> <div className='button-card'>На главную</div></NavLink>
                         </div>
 
                     </div>

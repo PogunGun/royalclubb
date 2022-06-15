@@ -22,7 +22,7 @@ const Block2 = ()=>{
 
     });
     React.useEffect(()=>{
-        axios.get(`https://pogungun.github.io/royalclubb/bd.json`)
+            axios.get(`https://pogungun.github.io/royalclubb/bd.json`)
             .then(({data})=>{
                 dispatch(addElement3(data.pizzas));
 
@@ -40,7 +40,7 @@ const Block2 = ()=>{
                 <div className='box-left'>
                     <div className='brand-name'>Ray-Ban</div>
                     <div>культовий захист від сонця</div>
-                    <div className='button-1'>Подивитися</div>
+                    <NavLink to='/royalclubb'><div className='button-1'>Подивитися</div></NavLink>
                 </div>
                 <div>
                     <img src={blok2_banner} alt="" className='banner'/>
