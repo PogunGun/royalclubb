@@ -156,5 +156,7 @@ a{
     }
     .border-bottom{
         margin-bottom: 10px;
-    }
+    }.block-grid-chang{
+             margin-left: 25px;
+         }
 }
