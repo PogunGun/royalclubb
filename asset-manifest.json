@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/royalclubb/static/css/main.0e9fddbc.css",
-    "main.js": "/royalclubb/static/js/main.05675bff.js",
+    "main.js": "/royalclubb/static/js/main.a41f77c6.js",
     "static/js/787.bc7d429a.chunk.js": "/royalclubb/static/js/787.bc7d429a.chunk.js",
     "static/media/block4-car.png": "/royalclubb/static/media/block4-car.f75e5896de7e003048cb.png",
     "static/media/letka.png": "/royalclubb/static/media/letka.5bb9b447e5b3408ed16d.png",
@@ -49,11 +49,11 @@
     "static/media/logo.svg": "/royalclubb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/royalclubb/index.html",
     "main.0e9fddbc.css.map": "/royalclubb/static/css/main.0e9fddbc.css.map",
-    "main.05675bff.js.map": "/royalclubb/static/js/main.05675bff.js.map",
+    "main.a41f77c6.js.map": "/royalclubb/static/js/main.a41f77c6.js.map",
     "787.bc7d429a.chunk.js.map": "/royalclubb/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e9fddbc.css",
-    "static/js/main.05675bff.js"
+    "static/js/main.a41f77c6.js"
   ]
 }
