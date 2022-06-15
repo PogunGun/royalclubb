@@ -23,7 +23,7 @@ const  Block3 =()=>{
 
     });
     React.useEffect(()=>{
-        axios.get(`/block-3.json`)
+        axios.get(`https://pogungun.github.io/royalclubb/block-3.json`)
             .then(({data})=>{
                 dispatch(addElement4(data.pizzas));
 

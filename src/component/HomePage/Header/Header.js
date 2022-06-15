@@ -32,7 +32,7 @@ const Header =()=>{
        }
     }
     React.useEffect(()=>{
-        axios.get(`/db.json`)
+        axios.get(`https://pogungun.github.io/royalclubb/db.json`)
             .then(({data})=>{
                 dispatch(addElement(data.pizzas));
 

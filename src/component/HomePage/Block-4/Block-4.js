@@ -23,7 +23,7 @@ const Block4 = ()=>{
 
     });
     React.useEffect(()=>{
-        axios.get(`/block-4.json`)
+        axios.get(`https://pogungun.github.io/royalclubb/block-4.json`)
             .then(({data})=>{
                 dispatch(addElement(data.nike));
 
