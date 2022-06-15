@@ -1,0 +1,44 @@
+{
+  "pizzas": [
+    {
+      "id": 4,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2022/01/adidas-forum-adv-low-footwear-white-1-630x630.jpg",
+      "name": "ADIDAS",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1415,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2021/08/nike-dunk-low-pro-catalonia.jpg",
+      "name": "NIKE Aankoop SB dunk",
+      "types": [0],
+      "sizes": [30, 40],
+      "price": 1580,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2022/04/adidas-campus-adv-whit-1-1-630x630.jpg",
+      "name": "ADIDAS Campus ADV",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1675,
+      "category": 1,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://wigmoresports.co.uk/wp-content/uploads/2020/04/Barricade-Jnr-White-Grey-630x630.jpg",
+      "name": "ADIDAS Junior Barricade",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1450,
+      "category": 4,
+      "rating": 10
+    }
+  ]
+}

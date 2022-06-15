@@ -1,0 +1,44 @@
+{
+  "pizzas": [
+    {
+      "id": 8,
+      "imageUrl": "https://thumbor.forbes.com/thumbor/630x630/https://specials-images.forbesimg.com/imageserve/5d3a12a0f1176b000897a98f/Puma-RS-X/960x0.jpg?fit=scale",
+      "name": "PUMA Statement B",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://i.pinimg.com/originals/79/fb/2d/79fb2da075d023efe5c2472ca76cccc7.jpg",
+      "name": "Converse Chuk Tailor",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1285,
+      "category": 5,
+      "rating": 7
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://www.be-in.ru/media/beingallery/gallary/things/2017/11/01/630x630-thumb-bx917704-002-01.jpg",
+      "name": "NIKE AIR max 92",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://media.kohlsimg.com/is/image/kohls/3923240_White?wid=600&hei=600&op_sharpen=1",
+      "name": "NIKE Court Vers",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    }
+  ]
+}

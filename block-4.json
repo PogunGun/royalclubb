@@ -1,0 +1,41 @@
+{
+  "nike": [
+    {
+      "id": 12,
+      "imageUrl": "https://civilistberlin.com/app/uploads/2022/03/nike-sb-blazer-mid-black-university-gold-1-630x630.jpg",
+      "name": "NIKE SB BLAZER COURT",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    },   {
+      "id": 13,
+      "imageUrl": "https://twentyfive.com.ua/files/resized/products/gz7278_adidas_ozweego_celox_adidas_krossovki_1.600x800.jpg",
+      "name": "ADIDAS OZWEEGO",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    },   {
+      "id": 14,
+      "imageUrl": "https://wigmoresports.co.uk/wp-content/uploads/2019/06/AA8022-500-PHSRH000-2000-630x630.jpeg",
+      "name": "NIKE Womens Air Zoom",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    },   {
+      "id": 15,
+      "imageUrl": "https://ekorobka.com.ua/image/catalog/ekorobka/krossovki_muz/Adidas-2017/adidas-2018-april/terrex/adidas-ZX_750-NEO_WHITE_SUB_GREEN_WHITE-11.jpg",
+      "name": "ADIDAS ZX 750",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 1395,
+      "category": 5,
+      "rating": 10
+    }
+  ]
+}
