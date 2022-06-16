@@ -14,10 +14,10 @@ import CartInfo from "../cart/cart/CartBlock/CartInfo/CartInfo";
 const Shop=()=>{
 
     const list = [
-        {name:'Від дешевого до дорогого',sort:'price'},
-        {name:'Від дорогого до дешевого',sort:'price&order=desc'},
-        {name:'Від популярного',sort:'rating'},
-        {name:'За Алфавітом(А-Я)',sort:'name'},
+        {name:'From cheap to expensive',sort:'price'},
+        {name:'From expensive to cheap',sort:'price&order=desc'},
+        {name:'From the popular',sort:'rating'},
+        {name:'Alphabetically (AZ)',sort:'name'},
     ];
     const list2 = [
         {name:'ALL',sort:''},
@@ -120,7 +120,7 @@ const Shop=()=>{
                         <div className='grid-change'>
                             <div className='border-bottom'>
                                 <div className='block-grid-chang' ref={itemRef}>
-                                    <div className='change-text'>Сортировка: <span className='bold-b jojo'>{selected.name}</span>
+                                    <div className='change-text'>Sort by: <span className='bold-b jojo'>{selected.name}</span>
 
                                     </div>
                                     <div className="triangle-down"></div>
@@ -139,7 +139,7 @@ const Shop=()=>{
                             </div>
                             <div>
                                 <div className='block-grid-chang'ref={itemRef1}>
-                                    <div className='change-text'>Размер:  <span className='bold-b'>{selected3.name}</span>
+                                    <div className='change-text'>Size:  <span className='bold-b'>{selected3.name}</span>
                                         <div  className='visibilite'>1</div></div>
 
                                     <div className="triangle-down"></div>
@@ -157,7 +157,7 @@ const Shop=()=>{
                             </div>
                             <div>
                                 <div className='block-grid-chang'ref={itemRef2}>
-                                    <div className='change-text'>Бренд:  <span className='bold-b'>{selected2.name}</span>
+                                    <div className='change-text'>Brand:  <span className='bold-b'>{selected2.name}</span>
                                         <div className='visibilite'>1</div></div>
                                     <div className="triangle-down"></div>
 

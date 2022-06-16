@@ -25,7 +25,7 @@ const Login = () => {
 
     return (
         <Form
-            title="Войти"
+            title="Log in"
             handleClick={handleLogin}
         />
     )

@@ -25,7 +25,7 @@ const CartItem=({obj,totalPrice,totalCount,onRemoveItem,id,onMinusItem,onPlusIte
                                     <div onClick={()=>onMinusItem(id)} >
                                             <img src={minus} alt=""className='regullar'/>
                                     </div>
-                                    <div className='irreg'>Кол-во</div>
+                                    <div className='irreg'>Amount</div>
                                     <div onClick={()=>onPlusItem(id)} >
                                         <img src={plus} alt="" className='regullar'/>
                                     </div>
@@ -33,8 +33,8 @@ const CartItem=({obj,totalPrice,totalCount,onRemoveItem,id,onMinusItem,onPlusIte
                             </div>
 
 
-                        <div className='count'>Цена:</div>
-                        <div className='count'>Всього</div>
+                        <div className='count'>Price:</div>
+                        <div className='count'>Total</div>
                         <div className='count'>{totalCount}</div>
                         <div className='count'>{obj.price}</div>
                         <div className='count'>{totalPrice}</div>

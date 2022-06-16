@@ -44,30 +44,31 @@ const Profile=()=>{
 
                     <NavLink to='/my-vib' className='account-block-el mar-t'>
                         <img src={like} alt="" className='account-img'/>
-                        <div>Мої замовлення</div>
+                        <div>My orders</div>
                     </NavLink>
                     <NavLink to='/cart' activeClassName='account-block-el-active'className='account-block-el'>
                         <img src={list} alt="" className='account-img'/>
-                        <div>Список бажань</div>
+                        <div>Wish list</div>
                     </NavLink>
                     <NavLink to=''activeClassName='account-block-el-active' className='account-block-el'>
                         <img src={purse} alt="" className='account-img'/>
-                       <div> Мій гаманець</div>
+                       <div> My wallet</div>
                     </NavLink>
                     <NavLink to='' activeClassName='account-block-el-active'className='account-block-el'>
                         <img src={logoP} alt=""className='account-img'/>
-                       <div>Підписка Premium</div>
+                       <div>Premium subscription</div>
                     </NavLink>
                     <div className='border-bb'>
                     <NavLink to=''activeClassName='account-block-el-active' className='account-block-el'>
                         <img src={chat} alt=""className='account-img'/>
-                      <div> Мої відгуки</div>
+                      <div>
+                          My feedback</div>
                     </NavLink>
 
                     </div>
                     <div className='account-block-el' onClick={exitUser}>
                         <img src={logout} alt=""className='account-img'/>
-                        <div>Вийти</div>
+                        <div>Exit</div>
                     </div>
 
 

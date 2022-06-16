@@ -20,33 +20,34 @@ const MyVibir =()=>{
                 <div>
                     <div className='grid-block-myvib'>
                         <div className='margin-auto'>
-                            <div className='block-name-b'>Мій Вибір</div>
-                            <div className='mt-ppgg'>Что такое закладка «Мой выбор»?</div>
-                            <div className='mt-ppg'>-Добавление товара в закладку «Мой выбор» не означает его
-                                резервацию.
+                            <div className='block-name-b'>My choice</div>
+                            <div className='mt-ppgg'>What is the My Choice tab?</div>
+                            <div className='mt-ppg'>-Adding a product to the "My Choice" tab does not mean it
+                                reservation.
                             </div>
-                            <div className='mt-ppg'>-Вместительность закладки «Мой выбор» сохраняется автоматически.
+                            <div className='mt-ppg'>-The capacity of the "My Choice" tab is saved automatically.
                             </div>
-                            <div className='mt-ppg'>-Товары, которые проданы, обозначены "Товар недоступен".</div>
-                            <div className='mt-ppg'>-Для Клиентов без Аккаунта, вместительность закладки «Мой выбор»
-                                сохраняется в течении месяца.
+                            <div className='mt-ppg'>-Goods that are sold are marked "Product not available". </div>
+                            <div className = 'mt-ppg'> - For Clients without an Account, the capacity of the "My Choice" tab
+                                persists for a month.
                             </div>
-                            <div className='mt-ppg'>-Для Клиентов c Аккаунтом, вместительность закладки «Мой выбор»
-                                сохраняется до тех пор, пока Клиент не удалит товары самостоятельно либо они будут
-                                проданы.
+                            <div className='mt-ppg'>-For Customers with an Account, the capacity of the "My Choice" tab
+                                persists until the Customer removes the goods themselves or they will
+                                sold.
                             </div>
 
                         </div>
                         <div className='grey-block'>
-                            <div className='mt-ppgg'>У Вас нет товаров в закладке «Мой выбор»</div>
-                            <div className='mt-ppg'>Добавить товар в закладку «Мой выбор» можно с помощью</div>
+                            <div className='mt-ppgg'>You have no items in the "My Choice" tab</div>
+                            <div className='mt-ppg'>You can add the product to the "My choice" tab with the help</div>
                             <img src={heart} alt="" className='user'/>
-                            <div className='mt-ppgg'>Вы создали Аккаунт?</div>
-                            <div className='mt-ppgf'>Войдите в свой Аккаунт, чтобы синхронизировать вместительность
-                                закладки «Мой выбор» на разных девайсах
+                            <div className='mt-ppgg'>Did you create an Account?</div>
+                            <div className='mt-ppgf'>
+                                Log in to your Account to sync capacity
+                                "My choice" bookmarks on different devices
                             </div>
                             <NavLink to='/register' className='regg-button2'>
-                                Увійти
+                                Log in
                             </NavLink>
                         </div>
                     </div>

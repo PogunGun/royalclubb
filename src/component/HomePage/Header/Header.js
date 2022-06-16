@@ -75,7 +75,7 @@ const Header =()=>{
                         <form>
                             <input
                                 type="text"
-                                placeholder="Пошук..."
+                                placeholder="Search..."
                                 onChange={(event)=>setValue(event.target.value)}
                                 onKeyPress={onKeyDown}
                             />
@@ -106,107 +106,108 @@ const Header =()=>{
 
                 <div className='before-header'>
                     <NavLink to='/shop' className='display-n none'>
-                        <span className='menu-g '>Новинки</span>
+                        <span className='menu-g '>Novelty</span>
                     </NavLink>
-                    <NavLink to='/shop' className='display-n'><span className='menu'>Одяг</span>
+                    <NavLink to='/shop' className='display-n'><span className='menu'>Clothing</span>
                         <NavLink to='/shop'>
                             <div className="descr">
-                               <div className='name-3'>Категорії</div>
+                               <div className='name-3'>Categories</div>
                                 <div className='popup'>
                                     <div>
-                                        <div className='mb-2'>Блузки</div>
-                                        <div className='mb-2'>Джинси</div>
-                                        <div className='mb-2'>Комбинезони</div>
-                                        <div className='mb-2'>Комплекти</div>
-                                        <div className='mb-2'>Кофти</div>
-                                        <div className='mb-2'>Купальники</div>
-                                        <div className='mb-2'>Куртки і пальто</div>
-                                        <div className='mb-2'>Пиджаки та желети</div>
+                                            <div className='mb-2'>Blouses</div>
+                                        <div className='mb-2'>Jeans</div>
+                                        <div className='mb-2'>Overalls</div>
+                                        <div className='mb-2'>Sets</div>
+                                        <div className='mb-2'>Sweatshirts</div>
+                                        <div className='mb-2'>Swimwear</div>
+                                        <div className='mb-2'>Jackets and coats</div>
+                                        <div className='mb-2'>Jackets and jellies</div>
                                     </div>
                                     <div>
-                                        <div className="mb-2">Рубашки</div>
-                                        <div className="mb-2">Платья</div>
-                                        <div className="mb-2">Шорти</div>
-                                        <div className="mb-2">Брюки </div>
-                                        <div className="mb-2">Спідниці</div>
-                                        <div className="mb-2">Футболки та майки</div>
-                                        <div className='mb-2 weight'>Смотреть все</div>
+                                        <div className="mb-2">Shirts</div>
+                                        <div className="mb-2">Dresses</div>
+                                        <div className="mb-2">Shorts</div>
+                                        <div className="mb-2">Pants</div>
+                                        <div className="mb-2">Skirts</div>
+                                        <div className="mb-2">T-shirts</div>
+                                        <div className='mb-2 weight'>Watch everything</div>
                                         <div className="mb-2"></div>
                                     </div>
                                 </div>
                             </div></NavLink>
                     </NavLink>
 
-                    <NavLink to='/shop' className='display-n'><span className='menu'>Взуття</span>
+                    <NavLink to='/shop' className='display-n'><span className='menu'>Footwear</span>
                         <NavLink to='/shop'>
                             <div className="descr">
-                                <div className='name-3'>Категорії</div>
+                                <div className='name-3'>Categories</div>
                                 <div className='popup'>
                                     <div>
                                         <div className='mb-2'>Outdoor</div>
-                                        <div className='mb-2'>Балетки</div>
-                                        <div className='mb-2'>Сапоги</div>
-                                        <div className='mb-2'>Кеди</div>
-                                        <div className='mb-2'>Кроссовки</div>
-                                        <div className='mb-2'>Тапки</div>
-                                        <div className='mb-2'>Туфли</div>
-                                        <div className='mb-2'>Уход за обувью</div>
-                                        <div className='mb-2 weight'>Смотреть все</div>
+                                        <div className='mb-2'>Ballet flats</div>
+                                        <div className='mb-2'>Boots</div>
+                                        <div className='mb-2'>Sneakers</div>
+                                        <div className='mb-2'>Slippers</div>
+                                        <div className='mb-2'>
+                                            Shoes</div>
+                                        <div className='mb-2'>Shoe care</div>
+                                        <div className='mb-2 weight'>Watch everything</div>
                                     </div>
                                 </div>
                             </div></NavLink>
 
                     </NavLink>
-                    <NavLink to='/shop' className='display-n'><span className='menu'>Аксесуари</span>
+                    <NavLink to='/shop' className='display-n'><span className='menu'>Accessories</span>
                         <NavLink to='/shop'>
                             <div className="descr">
-                                <div className='name-3'>Категории</div>
+                                <div className='name-3'>Categories</div>
                                 <div className='popup'>
                                     <div>
-                                        <div className='mb-2'>Бижутерия</div>
-                                        <div className='mb-2'>Часи</div>
-                                        <div className='mb-2'>Кошельки</div>
-                                        <div className='mb-2'>Косметика</div>
-                                        <div className='mb-2'>Маски</div>
-                                        <div className='mb-2'>Очки</div>
-                                        <div className='mb-2'>Парасолі</div>
-                                        <div className='mb-2'>Плавальні аксесуари</div>
+                                        <div className='mb-2'>Jewelry</div>
+                                        <div className='mb-2'>Hours</div>
+                                        <div className='mb-2'>Wallets</div>
+                                        <div className='mb-2'>Makeup</div>
+                                        <div className='mb-2'>Masks</div>
+                                        <div className='mb-2'>Points</div>
+                                        <div className='mb-2'>Umbrellas</div>
+                                        <div className='mb-2'>Swimming accessories</div>
                                     </div>
                                     <div>
-                                        <div className="mb-2">Ремни</div>
-                                        <div className="mb-2">Перчатки</div>
-                                        <div className="mb-2">Рюказаки</div>
-                                        <div className="mb-2">Сумочки</div>
-                                        <div className="mb-2">Чехли</div>
-                                        <div className="mb-2">Шляпи та шапки</div>
-                                        <div className="mb-2">Шарфи та платки</div>
-                                        <div className='mb-2 weight'>Смотреть все</div>
+                                        <div className="mb-2">Belts</div>
+                                        <div className="mb-2">
+                                            Gloves</div>
+                                        <div className="mb-2">Backpacks</div>
+                                        <div className="mb-2">Handbags</div>
+                                        <div className="mb-2">Slippers</div>
+                                        <div className="mb-2">Hats and caps</div>
+                                        <div className="mb-2">Scarves and shawls</div>
+                                        <div className='mb-2 weight'>Watch everything</div>
                                     </div>
                                 </div>
                             </div></NavLink>
 
                     </NavLink>
-                     <NavLink to='/shop' className='display-n'><span className='menu'>Спорт</span>
+                     <NavLink to='/shop' className='display-n'><span className='menu'>Sport</span>
                          <NavLink to='/shop'>
                              <div className="descr">
                                  <div className='popup-2'>
                                      <div>
-                                         <div className='name-3'>Одежда</div>
-                                         <div className='mb-2'>Блузки</div>
-                                         <div className='mb-2'>Джинси</div>
-                                         <div className='mb-2'>Комбинезони</div>
-                                         <div className='mb-2'>Комплекти</div>
-                                         <div className='mb-2'>Кофти</div>
-                                         <div className='mb-2'>Купальники</div>
-                                         <div className='mb-2'>Куртки і пальто</div>
-                                         <div className='mb-2'>Пиджаки та желети</div>
-                                         <div className='mb-2 weight'>Смотреть все</div>
+                                         <div className='name-3'>Clothes</div>
+                                         <div className='mb-2'>Blouses</div>
+                                         <div className='mb-2'>Jeans</div>
+                                         <div className='mb-2'>Overalls</div>
+                                         <div className='mb-2'>Sets</div>
+                                         <div className='mb-2'>Sweatshirts</div>
+                                         <div className='mb-2'>Swimwear</div>
+                                         <div className='mb-2'>Jackets and coats</div>
+                                         <div className='mb-2'>Jackets and jellies</div>
+                                         <div className='mb-2 weight'>Watch everything</div>
                                      </div>
                                      <div>
-                                         <div className='name-3'>Обувь</div>
+                                         <div className='name-3'>Shoes</div>
                                          <div className='mb-2'>Outdoor</div>
-                                         <div className='mb-2'>Балетки</div>
-                                         <div className='mb-2'>Сапоги</div>
+                                         <div className='mb-2'>Ballet flats</div>
+                                         <div className='mb-2'>Boots</div>
                                          <div className='mb-2'>Кеди</div>
                                          <div className='mb-2'>Кроссовки</div>
                                          <div className='mb-2'>Тапки</div>
@@ -215,26 +216,26 @@ const Header =()=>{
                                          <div className='mb-2 weight'>Смотреть все</div>
                                      </div>
                                      <div>
-                                         <div className='name-3'>Аксесуари</div>
-                                         <div className='mb-2'>Бижутерия</div>
-                                         <div className='mb-2'>Часи</div>
-                                         <div className='mb-2'>Кошельки</div>
-                                         <div className='mb-2'>Косметика</div>
-                                         <div className='mb-2'>Маски</div>
-                                         <div className='mb-2'>Очки</div>
-                                         <div className='mb-2'>Парасолі</div>
-                                         <div className='mb-2'>Плавальні аксесуари</div>
+                                         <div className='mb-2'>Jewelry</div>
+                                         <div className='mb-2'>Hours</div>
+                                         <div className='mb-2'>Wallets</div>
+                                         <div className='mb-2'>Makeup</div>
+                                         <div className='mb-2'>Masks</div>
+                                         <div className='mb-2'>Points</div>
+                                         <div className='mb-2'>Umbrellas</div>
+                                         <div className='mb-2'>Swimming accessories</div>
 
                                      </div>
                                      <div>
-                                         <div className="mb-2">Ремни</div>
-                                         <div className="mb-2">Перчатки</div>
-                                         <div className="mb-2">Рюказаки</div>
-                                         <div className="mb-2">Сумочки</div>
-                                         <div className="mb-2">Чехли</div>
-                                         <div className="mb-2">Шляпи та шапки</div>
-                                         <div className="mb-2">Шарфи та платки</div>
-                                         <div className='mb-2 weight'>Смотреть все</div>
+                                         <div className="mb-2">Belts</div>
+                                         <div className="mb-2">
+                                             Gloves</div>
+                                         <div className="mb-2">Backpacks</div>
+                                         <div className="mb-2">Handbags</div>
+                                         <div className="mb-2">Slippers</div>
+                                         <div className="mb-2">Hats and caps</div>
+                                         <div className="mb-2">Scarves and shawls</div>
+                                         <div className='mb-2 weight'>Watch everything</div>
                                      </div>
                                  </div>
                          </div></NavLink>

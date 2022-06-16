@@ -39,8 +39,8 @@ const Block2 = ()=>{
             <div className='box'>
                 <div className='box-left'>
                     <div className='brand-name'>Ray-Ban</div>
-                    <div>культовий захист від сонця</div>
-                    <NavLink to='/royalclubb'><div className='button-1'>Подивитися</div></NavLink>
+                    <div>Cult sun protection</div>
+                    <NavLink to='/royalclubb'><div className='button-1'>Look</div></NavLink>
                 </div>
                 <div>
                     <img src={blok2_banner} alt="" className='banner'/>
@@ -52,9 +52,9 @@ const Block2 = ()=>{
                     <div className='box-top'>
                         <div className='container'>
                                 <div className='container-block'>
-                                <div className='brand-name-2'>Кросівки</div>
-                                <div className='color-2'>Та спортивне взуття</div>
-                                    <NavLink to='/shop'><div className='button-2'>Подивитися</div></NavLink>
+                                <div className='brand-name-2'>Sneakers</div>
+                                <div className='color-2'>And sports shoes</div>
+                                    <NavLink to='/shop'><div className='button-2'>Look</div></NavLink>
                             </div>
                         </div>
                     </div>

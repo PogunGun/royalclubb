@@ -21,12 +21,12 @@ const Corse =()=>{
         return items[key].items[0];
     });
     const onClearCart=()=>{
-        if(window.confirm('Вы действительно хотите очистить корзину?')){
+        if(window.confirm('Do you really want to clear the cart?')){
             dispatch(ClealeELem())
         }
     }
     const onRemoveItem=(id)=>{
-        if(window.confirm('Вы действительно хотите удалить товар?')){
+        if(window.confirm('Are you sure you want to delete the item?')){
             dispatch(removeCartItem(id))
         }
     }
@@ -45,27 +45,30 @@ const Corse =()=>{
                 <Header/>
                 {totalCount===0?(
                 <div className='cart'>
-                    <h1 className='brand-name'>Корзина</h1>
+                    <h1 className='brand-name'>Basket</h1>
                     <div className='block-cart'>
                         <img src={shop} alt="" className='user'/>
-                        <h className='card-name-1'>Ваша корзина - пуста</h>
-                        <p className='mt-p'>Посмотрите наше актуальное предложение. Вы уж точно найдёте там что-то интересное!</p>
+                        <h className='card-name-1'>Your cart is empty</h>
+                        <p className='mt-p'>
+                            See our current offer. You will definitely find something interesting there!</p>
                         <div className='but-mar'>
-                           <NavLink to='/royalclubb' className='dec'> <div className='button-card'>На главную</div></NavLink>
+                           <NavLink to='/royalclubb' className='dec'> <div className='button-card'>Home</div></NavLink>
                         </div>
 
                     </div>
                     <div className='grid-card-blcok'>
                         <div className='margin-auto'>
-                            <div className='mt-ppp'>Где Ваши товары?</div>
-                            <div className='mt-pp'>- Убедитесь, что Вы вошли в Аккаунт</div>
-                            <p className='mt-pp'>Ваша корзина - синхронизируется на всех девайсах, если Вы вошли в Аккаунт. Если Вы не вошли в Аккаунт, Ваши товары будут удалены из корзины в течении 10 дней.</p>
-                            <NavLink to='/register' className='regg-button'>Увійти</NavLink>
+                            <div className='mt-ppp'>Where are your products?</div>
+                            <div className='mt-pp'>- Make sure you are logged in to your Account</div>
+                            <p className='mt-pp'>
+                                Your cart is synchronized on all devices if you are logged in to your account. If you do not log in to your Account, your items will be removed from the cart within 10 days.</p>
+                            <NavLink to='/register' className='regg-button'>
+                                Log in</NavLink>
                         </div>
                         <div className='margin-auto'>
-                            <div className='mt-pp'>- Вы вошли в Аккаунт и не видите товаров?</div>
-                            <div className='mt-pp'>Товары, которые проданы, автоматически будут перенесены в закладку Мой выбор, где Вы сможете подписаться на уведомление о возможном поступлении данного товара опять в продажу.</div>
-                            <div className='mt-pp'>Якщо жоден з вищенаведених випадків Вас не стосується, зв'яжіться з нами oshibka</div>
+                            <div className='mt-pp'>- Are you logged in and do not see the goods?</div>
+                            <div className='mt-pp'>The goods that are sold will be automatically transferred to the My Choice tab, where you can subscribe to a notification about the possible entry of this product back on sale.</div>
+                            <div className='mt-pp'>If none of the above apply to you, please contact us oshibka</div>
                         </div>
                     </div>
                 </div>
@@ -75,8 +78,8 @@ const Corse =()=>{
                                 <div className='cart-12'>
                                     <div className='mt-mt'>
                                         <div className='display-g'>
-                                            <h1 className='brand-name-3'>Корзина</h1>
-                                            <div onClick={onClearCart} className='b-2'>Очистить корзну</div>
+                                            <h1 className='brand-name-3'>Basket</h1>
+                                            <div onClick={onClearCart} className='b-2'>Clean the basket</div>
                                         </div>
 
                                         <div className='border-b-1'></div>
@@ -99,17 +102,17 @@ const Corse =()=>{
                             <div className='max-w'>
                                 <div className='cart-12'>
 
-                                   <h1 className='brand-name-3'>Итого</h1>
+                                   <h1 className='brand-name-3'>Total</h1>
                                     <div className='border-b-1'></div>
                                     <div className='grid-mini'>
-                                        <div className='mb-3'>Сумма товарів:</div>
+                                        <div className='mb-3'>Amount of goods:</div>
                                             <div>{totalPrice}</div>
-                                        <div className='mb-3'>Доставка:</div>
+                                        <div className='mb-3'>Delivery:</div>
                                             <div>{bb}</div>
-                                        <div className='mb-3'>Всього:</div>
+                                        <div className='mb-3'>Total:</div>
                                             <div>{totalPrice+bb}</div>
                                     </div>
-                                    <div className='mt-1 regg-button'>Купить</div>
+                                    <div className='mt-1 regg-button'>Buy</div>
                                 </div>
                             </div>
                         </div>

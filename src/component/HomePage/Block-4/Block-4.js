@@ -41,7 +41,7 @@ const Block4 = ()=>{
                  <div className="container">
                      <div className='container-block'>
                          <div className='brand-name-2'>OUTDOOR store</div>
-                         <NavLink to='/shop'><div className='button-2'>Подивитися</div></NavLink>
+                         <NavLink to='/shop'><div className='button-2'>Look</div></NavLink>
                      </div>
                  </div>
              </div>
@@ -68,8 +68,8 @@ const Block4 = ()=>{
              <div className="block-4-2">
                     <div className='box4-background-2'>
                         <div className='container-block4'>
-                             <div className='color-2'>Усе буде добре!</div>
-                            <NavLink to='/shop'><div className='button-2'>Подивитися</div></NavLink>
+                             <div className='color-2'>Everything will be fine!</div>
+                            <NavLink to='/shop'><div className='button-2'>Look</div></NavLink>
                          </div>
                      </div>
              </div>

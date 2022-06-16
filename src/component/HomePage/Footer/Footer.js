@@ -26,28 +26,30 @@ const Footer = () =>{
                     <div className='footer-block-margin'>
                         <div className='footer-block-grid'>
                             <div className="footer-block-grid-card">
-                                <div className='footer-name'>ДОПОМОГА ТА ІНФОРМАЦІЯ</div>
-                                <div className='footer-element'>Про RoyalClub.ua</div>
-                                <div className='footer-element'>Правила магазину RoyalClub.ua</div>
-                                <div className='footer-element'>Правила ANSWEARClub</div>
-                                <div className='footer-element' >Що потрібно знати, купуючи товар дорожче 100 євро?</div>
-                                <div className='footer-element'>Повернення і рекламація</div>
-                                <div className='footer-element'>Поширені запитання</div>
-                                <div className='footer-element'>Контакт</div>
-                                <div className='footer-element'>Корпоративна соціальна відповідальність</div>
-                                <div className='footer-element' >Блог RoyalClub</div>
-                                <div className='footer-element'>Політика конфіденційності</div>
+                                <div className='footer-name'>HELP AND INFORMATION</div>
+                                <div className='footer-element'>About RoyalClub.ua</div>
+                                <div className='footer-element'>Rules of the RoyalClub.ua store</div>
+                                <div className='footer-element'>RoyalClub Rules</div>
+                                    <div className='footer-element' >
+                                        What you need to know when buying goods more expensive than 100 euros?</div>
+                                <div className='footer-element'>Returns and complaints</div>
+                                <div className='footer-element'>Frequently Asked Questions</div>
+                                <div className='footer-element'>Contact
+                                </div>
+                                <div className='footer-element'>Corporate social responsibility</div>
+                                <div className='footer-element' >RoyalClub blog</div>
+                                <div className='footer-element'>Privacy policy</div>
                             </div>
                             <div className="footer-block-grid-card border-line">
-                                <div className='footer-name'>ДОСТАВКА</div>
-                                <div className='footer-element'>У відділення Нова Пошта</div>
+                                <div className='footer-name'>DELIVERY</div>
+                                <div className='footer-element'>In the Nova Poshta branch</div>
                                 <div className='footer-element'>
                                     <NavLink to='/royalclubb'>  <img src={nova} alt=""/></NavLink>
                                 </div>
                             </div>
                             <div className="footer-block-grid-card border-line">
-                                <div className='footer-name'>ОПЛАТА</div>
-                                <div className='footer-element'>Банківською карткою</div>
+                                <div className='footer-name'>PAYMENT</div>
+                                <div className='footer-element'>Bank card</div>
                                 <NavLink to='/royalclubb'>  <div className='footer-element'>
                                     <img src={visa} alt="" className='mini-margin'/>
                                     <img src={master} alt="" className='mini-margin'/>
@@ -55,7 +57,7 @@ const Footer = () =>{
                                 </div>  </NavLink>
                             </div>
                             <div className="footer-block-grid-card border-line">
-                                <div className='footer-name'>МОБІЛЬНИЙ ДОДАТОК</div>
+                                <div className='footer-name'>MOBILE APP</div>
                                 <NavLink to='/royalclubb'> <div className='footer-element '>
                                     <img src={google} alt="" className='mini'/>
                                 </div>
@@ -67,7 +69,7 @@ const Footer = () =>{
                                 </div>
                                 </NavLink>
                                 <div>
-                                    <div>СТЕЖТЕ ЗА НАМИ:</div>
+                                    <div>FOLLOW US:</div>
                                     <div className='footer-element'>
                                         <NavLink to='/royalclubb'>
                                         <img src={facebook} alt="" className='min-element'/>
@@ -82,14 +84,15 @@ const Footer = () =>{
                 </div>
                 <div className='footer-block-after'>
                     <div className="footer-block-after-left">
-                        <span>Політика Конфіденційності</span>
-                        <span>Правила</span>
-                        <span>Дані Компанії</span>
-                        <span>Усі Cookies</span>
+                        <span>Privacy Policy</span>
+                        <span>Rules</span>
+                        <span>Company data</span>
+                        <span>
+All Cookies</span>
                     </div>
                     <div className="footer-block-after-right">
-                        <span>WEARETHEANSWEAR IN::</span>
-                        <span>BG</span>
+                        <span>VEARETHEANSWEAR IN ::</span>
+                        <span>  BG</span>
                         <span>CY</span>
                         <span>CZ</span>
                         <span>GR</span>

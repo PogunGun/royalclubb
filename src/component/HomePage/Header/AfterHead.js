@@ -5,10 +5,10 @@ const AfterHead = ()=>{
     return(
         <div className='after-header'>
             <div className='above-header'>
-                <span>Безкоштовна доставка з ЭС(від 1300 грн)</span>
-                <span>Лише орігінальні товари</span>
-                <span>Повернення і обмін протягом 14днів</span>
-                <span>-15% на перше замовлення</span>
+                <span>Free delivery from ES (from 1300 UAH)</span>
+                <span>Only original goods</span>
+                <span>Return and exchange within 14 days</span>
+                <span>-15% on the first order</span>
             </div>
         </div>
     )

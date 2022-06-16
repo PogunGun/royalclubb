@@ -38,8 +38,8 @@ const Before_Header =()=>{
             <div className='box'>
                 <div className='box-left'>
                     <div className='brand-name'>Superdry</div>
-                    <div>новий бренд на RoyalClub.ua</div>
-                    <NavLink to='/shop'><div  className='button-1'>Подивитися</div></NavLink>
+                    <div>new brand on RoyalClub.ua</div>
+                    <NavLink to='/shop'><div  className='button-1'>Look</div></NavLink>
                 </div>
                 <div>
                     <img src={banner} alt="" className='banner'/>
@@ -52,8 +52,8 @@ const Before_Header =()=>{
                        <div className='container'>
                        <div className='container-block'>
                            <div className='brand-name-2'>Active Store</div>
-                           <div className='color-2'>Одяг для твого комфорту</div>
-                           <NavLink to='/shop'><div className='button-2'>Подивитися</div></NavLink>
+                           <div className='color-2'>Clothes for your comfort</div>
+                           <NavLink to='/shop'><div className='button-2'>Look</div></NavLink>
                        </div>
                        </div>
                    </div>

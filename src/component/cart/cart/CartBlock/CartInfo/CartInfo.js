@@ -43,11 +43,11 @@ const CartInfo =()=>{
             </div>
             <div className='margin-auto'>
                 <div className='buy-cc'>{game.name}</div>
-                <div className='buy-c'>{game.price} грн</div>
+                <div className='buy-c'>{game.price} UAH</div>
                 <button className='buy-buttom'>
                     <div><img src={shopBag} alt="" className='user'/>
                     </div>
-                    <button onClick={onClickAddPizza} className='b-1'>Добавить в корзину</button>
+                    <button onClick={onClickAddPizza} className='b-1'>Add to cart</button>
                 </button>
             </div>
         </div>

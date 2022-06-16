@@ -14,8 +14,8 @@ const Block5 = ()=>{
                           <div className="block-5-left">
                               <div className='container-block'>
                                   <div className='brand-name'>SPORT</div>
-                                  <div>гартуй свій дух</div>
-                                  <NavLink to='/shop'><div className='button-1'>Подивитися</div></NavLink>
+                                  <div>Harden your spirit</div>
+                                  <NavLink to='/shop'><div className='button-1'>Look</div></NavLink>
                               </div>
                           </div>
                         <div className="block-5-right">
@@ -29,18 +29,18 @@ const Block5 = ()=>{
                     <div className="block5-grid">
                         <div className='block5-grid-card'>
                             <img src={grid1} alt=""/>
-                            <div className='card-name'>Безкоштовна доставка</div>
-                            <div>Від 1300 грн. Доставка з Польщі.</div>
+                            <div className='card-name'>Free shipping</div>
+                            <div>From UAH 1,300. Delivery from Poland.</div>
                         </div>
                         <div className='block5-grid-card'>
                             <img src={grid2} alt=""/>
-                            <div className='card-name'>Відправка протягом 24 год.</div>
-                            <div>Лише оригінальні товари.</div>
+                            <div className='card-name'>Dispatch within 24 hours</div>
+                            <div>Only original goods.</div>
                         </div>
                         <div className='block5-grid-card'>
                             <img src={grid3} alt=""/>
-                            <div className='card-name'>Заощаджуй з Royal Club</div>
-                            <div>Іноді навіть -50%.</div>
+                            <div className='card-name'>Save with Royal Club</div>
+                            <div>Sometimes even -50%.</div>
                         </div>
                     </div>
                 </div>

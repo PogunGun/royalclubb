@@ -69,20 +69,21 @@ const SignUp = () => {
         <div className='grid-reg'>
             <div>
                 <Form
-                title="Создать Аккаунт"
+                title="Create an Account"
                 handleClick={handleRegister}
                 signInWithGoogle={signInWithGoogle}
             />
             </div>
 
             <div className='sign-block-margin'>
-                <div className='block-name mb-1'>У мене є Аккант</div>
-                <NavLink to='/login' className='reg-button'>Войти</NavLink>
+                <div className='block-name mb-1'>I have Accant</div>
+                <NavLink to='/login' className='reg-button'>Log in</NavLink>
                 <div className='mini-text'>
-                    <h4 className='name-2'>Чому варто зареєструватись?</h4>
-                    <div>Ви користуєтеся привілеями (VIP Розпродаж, shopping night)</div>
-                    <div>Приєднуйтесь до ANSWEAR.Club та купуйте дешевше!</div>
-                    <div>Швидкі покупки завдяки вже збереженим особистим даним.</div>
+                    <h4 className='name-2'>Why register?</h4>
+                    <div>You enjoy privileges (VIP Sale, shopping night)</div>
+                    <div>Join ANSWEAR.Club and buy cheaper!</div>
+                    <div>
+                        Fast purchases thanks to already saved personal data.</div>
                 </div>
 
             </div>

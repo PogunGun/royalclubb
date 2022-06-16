@@ -8,7 +8,7 @@ const Form = ({title, handleClick,signInWithGoogle}) => {
 
     return (
         <div className='register-block'>
-            <div className='block-name mb-1'>У мене немає Аккаунта</div>
+            <div className='block-name mb-1'>I don't have an account</div>
             <div className='reg-text'>email*</div>
             <input
                 type="email"
